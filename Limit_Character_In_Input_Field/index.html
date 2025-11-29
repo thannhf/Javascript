@@ -3,22 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marvel API App</title>
+    <title>Limit Character In Input Field</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap">
+    <link rel="preconnect" href="https://fonts-gstatic.com">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <div class="input-container">
-            <input type="text" class="input" value="iron man" id="input-box" />
-            <button class="button" id="submit-button">Submit</button>
-            
-        </div>
-        <div class="list"></div>
-        <div class="display-container" id="show-container"></div>
+        <textarea id="my-text" rows="5" placeholder="Type something here.."></textarea>
+        <p id="result"></p>
     </div>
 
-    <script src="api-data.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
